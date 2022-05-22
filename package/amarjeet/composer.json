@@ -1,0 +1,30 @@
+{
+    "name": "amarjeet/calculator",
+    "description": "This is a demo project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amarjeet\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amarjeet\\Calculator\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "Amarjeet\\Calculator\\Facades\\CalculatorFacade"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Amarjeet",
+            "email": "amarjeet.kaur111@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
+ 
